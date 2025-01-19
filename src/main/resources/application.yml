@@ -6,6 +6,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://your-auth-provider.com
-jwt:
-  secret: yourSecretKeyForJWT  # Change this to a secure value
+          issuer-uri: https://dev-1v3r0ibo0nl5rov4.us.auth0.com/
+          audience: https://myapp.com/api
+
+#jwt:
+ # secret: qwertyuiopasdfghjklzxcvbnm123456  # Change this to a secure value
