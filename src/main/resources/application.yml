@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://your-auth-provider.com
+jwt:
+  secret: yourSecretKeyForJWT  # Change this to a secure value
